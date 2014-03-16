@@ -1,0 +1,28 @@
+.metadata/
+build/
+local_build/
+CMakeFiles/
+bin/
+CMakeCache.txt
+
+#temporary files
+*.*~
+*.bak
+CATKIN_IGNORE
+
+# Compiled Object files
+*.exe
+*.bin
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
