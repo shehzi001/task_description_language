@@ -1,0 +1,11 @@
+prefix=/home/shehzad/ros_ws/hydro/rockin_ws/src/mm_kia/task_description_language/nlu/build
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: google-recognition
+Description: google-recognition
+Requires:  glib-2.0
+Version: 0.0.1
+Libs: -L${libdir}  -lgoogle-recognition
+Cflags: -I${includedir} 
