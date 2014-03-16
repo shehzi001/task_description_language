@@ -1,0 +1,24 @@
+add_definitions(-std=gnu99)
+set(LIB google-recognition)
+
+file(GLOB c_files *.c)
+file(GLOB h_files *.h)
+add_library(${LIB} ${c_files})
+
+IF(APPLE)
+    FIND_LIBRARY (AUDIOTOOLBOX_LIBRARY AudioToolbox)
+    FIND_LIBRARY (COREFOUNDATION_LIBRARY CoreFoundation)
+    MARK_AS_ADVANCED (AUDIOTOOLBOX_LIBRARY COREFOUNDATION_LIBRARY)
+    SET(EXTRA_LIBS ${AUDIOTOOLBOX_LIBRARY} ${COREFOUNDATION_LIBRARY})
+ENDIF (APPLE)
+
+# set the library API version.  Increment this every time the public API
+# changes.
+
+set_target_properties(${LIB} PROPERTIES SOVERSION 1)
+target_link_libraries(${LIB} ${CURL_LIBRARIES} ${FLAC_LIBRARIES} ${EXTRA_LIBS})
+
+install(TARGETS ${LIB}
+    LIBRARY
+    ARCHIVE
+    DESTINATION lib)

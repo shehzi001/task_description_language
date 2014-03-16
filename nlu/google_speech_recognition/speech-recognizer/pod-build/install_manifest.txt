@@ -1,0 +1,14 @@
+/home/shehzad/ros_ws/hydro/rockin_ws/src/mm_kia/task_description_language/nlu/build/lib/liblcmtypes_speech-recognizer.a
+/home/shehzad/ros_ws/hydro/rockin_ws/src/mm_kia/task_description_language/nlu/build/include/lcmtypes/h2sl_xml_string_t.h
+/home/shehzad/ros_ws/hydro/rockin_ws/src/mm_kia/task_description_language/nlu/build/include/lcmtypes/speech_recognizer.h
+/home/shehzad/ros_ws/hydro/rockin_ws/src/mm_kia/task_description_language/nlu/build/lib/pkgconfig/lcmtypes_speech-recognizer.pc
+/home/shehzad/ros_ws/hydro/rockin_ws/src/mm_kia/task_description_language/nlu/build/include/lcmtypes/h2sl/xml_string_t.hpp
+/home/shehzad/ros_ws/hydro/rockin_ws/src/mm_kia/task_description_language/nlu/build/include/lcmtypes/speech_recognizer.hpp
+/home/shehzad/ros_ws/hydro/rockin_ws/src/mm_kia/task_description_language/nlu/build/share/java/lcmtypes_speech-recognizer.jar
+/home/shehzad/ros_ws/hydro/rockin_ws/src/mm_kia/task_description_language/nlu/build/lib/python2.7/dist-packages/h2sl/__init__.py
+/home/shehzad/ros_ws/hydro/rockin_ws/src/mm_kia/task_description_language/nlu/build/lib/python2.7/dist-packages/h2sl/xml_string_t.py
+/home/shehzad/ros_ws/hydro/rockin_ws/src/mm_kia/task_description_language/nlu/build/share/lcmtypes/h2sl_xml_string_t.lcm
+/home/shehzad/ros_ws/hydro/rockin_ws/src/mm_kia/task_description_language/nlu/build/include/speech_recognizer_gui/speech_detector.h
+/home/shehzad/ros_ws/hydro/rockin_ws/src/mm_kia/task_description_language/nlu/build/include/speech_recognizer_gui/wav_file.h
+/home/shehzad/ros_ws/hydro/rockin_ws/src/mm_kia/task_description_language/nlu/build/lib/libspeech-recognizer-gui.so
+/home/shehzad/ros_ws/hydro/rockin_ws/src/mm_kia/task_description_language/nlu/build/bin/google-speech-recognizer

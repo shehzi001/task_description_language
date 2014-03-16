@@ -1,0 +1,11 @@
+prefix=/home/shehzad/ros_ws/hydro/rockin_ws/src/mm_kia/task_description_language/nlu/build
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: lcmtypes_speech-recognizer
+Description: LCM types for speech-recognizer
+Requires:  lcm
+Version: 0.0.0
+Libs: -L${libdir}  -llcmtypes_speech-recognizer
+Cflags: -I${includedir} 
