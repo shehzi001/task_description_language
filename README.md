@@ -57,7 +57,7 @@ Instruction to use Humand Robot Interaction module
 		tar -xvzf google_speech_recognition.tgz
 
 		cd google_speech_recognition
-		export BUILD_PREFIX=/home/shehzad/ros_ws/hydro/rockin_ws/src/mm_kia/task_description_language/nlu/build
+		export BUILD_PREFIX=~/task_description_language/nlu/build
 		make
 
 **Step 5:Testing google speech recognizer.Make sure that you have internet on your PC/laptop**
@@ -76,7 +76,6 @@ sr-spy is a test node which looks for LCM messages and show it in another gui-wi
 
 		cd ~/task_description_language/nlu/
 
-		For fresh installation only.You can skip the next command.
 		git clone https://github.com/chokkan/liblbfgs
 
 		cd liblbfgs
