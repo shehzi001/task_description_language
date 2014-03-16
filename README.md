@@ -35,7 +35,6 @@ Instruction to use Humand Robot Interaction module
 
 		cd ~/task_description_language/nlu/
 
-		For fresh installation.Its already here in the repositroy.So you can skip next command.
 		svn checkout http://lcm.googlecode.com/svn/trunk/ lcm-read-only
 
 		cd lcm-read-only
