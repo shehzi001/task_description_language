@@ -1,6 +1,3 @@
-task_description_language
-=========================
-
 Instruction to use Humand Robot Interaction module
 ==================================================
 
