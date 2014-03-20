@@ -4,7 +4,7 @@ task_description_language
 Instruction to use Humand Robot Interaction module
 ==================================================
 
-**Step 1: Install all the dependencies**
+*Step 1: Install all the dependencies*
 
 *git
 *subversion
