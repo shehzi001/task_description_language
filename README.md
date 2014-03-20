@@ -20,9 +20,9 @@ Installation wiki for iTaSC framework
 
 				http://www.orocos.org/wiki/orocos/itasc-wiki/itasc-quick-start
 
-**Scroll down to Sec. 3.2**
+Scroll down to Sec. 3.2
 
-				Click on "here" first line.It will open or download the file.
+Click on "here" first line.It will open or download the file.
 
 **Step 5:Go to your ROS workspace**
 
